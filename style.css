@@ -1,0 +1,322 @@
+/*geral*/
+html{
+  font-family:'open sans', sans-serif;
+}
+body {
+  margin: 1%;
+}
+h1, h2, h3, h4, h5, p, span {
+  margin: 0;
+  color:#222;
+
+}
+h1{
+  border: white;
+}
+.container {
+  max-width:1800px;
+  width:100%;
+}
+/*header*/
+header {
+  position:relative;
+  top:0;
+  height: auto;
+  width: 100%;
+}
+
+/* navbar */
+nav{
+  position:fixed;
+  top:0;
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+
+}
+
+nav:after{
+  clear: both;
+  content:"";
+  display:block;
+}
+
+.nav-container{
+  max-width:1200px;
+  position:relative;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+#logo{
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+.nav-container{
+  float: right;
+  height: 100%;
+  line-height: 100%;
+  margin: 0;
+}
+
+.nav-container li {
+  list-style: none;
+  float: left;
+  margin: 0 15px;
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: #666;
+  transition: .5s;
+}
+
+.nav-container li a:hover {
+  color:darkgreen;
+  }
+
+/* banner */
+#main-banner{
+  background:url('../Imagens/BlocosDeMontar.jpg') no-repeat;
+  background-size:100% ;
+  background-position: 0 35%;
+  position: relative;
+  margin-top: 100px;
+}
+
+#search-form{
+  position:relative;
+  width: 80%;
+  margin-left:auto;
+  margin-right: auto;
+  padding-top: 10em;
+  padding-bottom: 5em;
+  text-align:center;
+  
+
+}
+
+#search-form h1{
+  font-size: 40px;
+}
+
+#search-form {
+  margin-top:50px;
+  margin: bottom 60px;
+  font-size: 18px;
+  font-weight: 300;  
+}
+
+#search-form input, #search-form select {
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: transparent;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+#search-form input [type=submit]:hover {
+background-color:dimgrey;
+
+}
+
+
+
+
+
+/* .topo { */
+  /* padding: 0px 5px;*/
+  /* display:block; */
+  /* justify-content:left; */
+  /* text-align: center; */
+  /* color: white; */
+  /* background-image: url(https://br.freepik.com/fotos-gratis/fechar-o-fundo-do-quebra-cabeca_22895080.htm#page=2&query=quebra-cabe%C3%A7a%20logo&position=2&from_view=search&track=ais); */
+  /* background-repeat: no-repeat; */
+  /* background-position: left top; */
+  /* background-color: #3e442b; */
+/* } */
+
+/* #ChamamentoVoluntário { */
+
+/* background-color: seagreen;} */}
+
+/* ul{ */
+  /* list-style-type: none; */
+  /* margin: 0; */
+  /* padding: 8; */
+  /* display:flex */
+}
+
+/* ul { */
+  /* list-style-type: none; */
+  /* margin:0; */
+  /* padding:0; */
+  /* overflow:hidden; */
+  /* background-color:#333; */
+/* } */
+
+li {
+  /* float:right; */
+  }
+li a {
+  /* display:flex; */
+   color:rgb(134, 130, 121); 
+  /* text-align:justify; */
+  /* text-align:justify; */
+  /* padding: 10px 16px; */
+  text-decoration:none;
+} 
+/* li a:hover { */
+  /* background-color: #111; */
+/* } */
+
+
+
+#SobreNos {
+  margin-top: 5em;
+  padding-top: 5em;
+  padding: 0px 10px;
+  text-align: justify;
+  /* text-justify: distribute-all-lines; */
+  background-attachment: fixed;
+  margin-left:auto;
+  margin-right: auto;
+}
+main {
+  /* padding: 20px 0px; */
+  margin-top: 3em;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: white; */
+}
+
+section {
+  width: 30%;
+}
+
+#section header {
+  padding: 10px;
+  text-align: center;
+  /* background-color: rgb(134, 130, 121); */
+}
+
+#img{
+  /* width:10px; */
+  /* height: 10px; */
+  width: 25%;
+}
+
+section div {
+  padding: 1em 5;
+  display:block;
+  text-align: center;
+  background-color: #d6eeff;
+  }
+
+
+  /*footer*/
+  footer {
+    background-color:rgb(134, 130, 121);
+    padding-top: 10em;
+    padding-bottom: 10em;
+    border-top: 5px solid #222;
+  }
+  footer h2, footer p, footer a, footer span {
+    color:white;
+  }
+  footer h2{
+    font-weight: 400;
+
+  }
+  footer a {
+    text-decoration: none
+  }
+  footer ul{
+    padding:0;
+  }
+
+  footer li {
+    list-style: none;
+  }
+
+  .footer-box {
+    width: 31%;
+    padding: 0%;
+    float: left;
+  }
+
+  footer.wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+  .ong-footer {
+    width: 80%;
+  }
+
+  .ong-footer h2 {
+    margin-top: 20px;
+  }
+
+  .ong-footer h2, .ong-footer p {
+  margin-bottom: 20px;  
+  }
+
+  .footer-list li{
+    margin-bottom: 15px;
+  }
+
+  .footer-list a {
+    transition: 0.5s;
+  }
+
+  .footer-list a:hover{
+    color:#fff;
+  }
+
+  .footer-list li:after {
+    clear:both;
+    content: "";
+    display:block;
+  }
+ 
+  .footer-artigos {
+    width: 80%;
+
+  }
+  .footer.list.footer-artigos-list span{
+    display: block;
+    float:none;
+  }
+  .fab{
+    font-size: 20px;
+    margin-right: 10px;
+    float: left;
+  }
+
+  .footer-list li span {
+    float: left;
+    height: 25px;
+    line-height: 30px;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid white;
+  }
+
+  .footer-bottom p {
+    font-weight: 600;
+    margin-top: 40px;
+
+  }
+
+
+
