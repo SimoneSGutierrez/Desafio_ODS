@@ -83,7 +83,7 @@ nav:after{
 /* banner */
 #main-banner{
 /*   background:url('../Imagens/BlocosDeMontar.jpg') no-repeat; */
-  background:url(BlocosDeMontar.jpg) no-repeat;
+  background-image:url('BlocosDeMontar');
   background-size:100% ;
   background-position: 0 35%;
   position: relative;
