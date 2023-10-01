@@ -1,0 +1,32 @@
+
+.topo{
+  padding: 20px 0;
+  position: relative;
+
+}
+
+.banner-principal{
+  /*background: #a3cfbb;*/
+  background: #198754;
+  padding-top: 20px;
+}
+.banner-principal .img-blocos{
+max-width: 300px;
+}
+.banner-principal h1{
+  /*color: #212529;*/
+  color: #ffffff
+}
+
+.quem-somos{
+  padding-top:20px;
+}
+
+.rodape{
+  color: #ffffff;
+  background: #343a40;
+}
+
+.ul{
+  color:#ffffff;
+  }
